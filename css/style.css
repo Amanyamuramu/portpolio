@@ -32,7 +32,7 @@ body {
     justify-content: center;
     height: 100vh;
     min-height: 450px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(img/01.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(Img/01.png);
 
     background-position: center;
     background-size: cover;
@@ -44,7 +44,7 @@ body {
 .conA.compact{
     height: 250px;
     min-height: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(img/01.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(Img/01.png);
 }
 .conA h1{
     margin-top: 0;
