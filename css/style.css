@@ -2,7 +2,7 @@
 
 /* fundamental color */
 :root{
-    --main-color:rgb(0,0,0);
+    --main-color:rgba(0, 0, 0, 0.527);
     --accent-color: #BF6A7A;
     --dark-main-color: rgb(0, 0, 0);
     --text-bright-color: #fff;
@@ -42,7 +42,7 @@ body {
 }
 
 .conA.compact{
-    height: 250px;
+    height: 270px;
     min-height: 0;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/01.png);
 }
@@ -260,6 +260,8 @@ header {
     text-indent: 1em;
     display: inline-block;
     text-align: left;
+    margin-top: 5%;
+    margin-bottom: 9%;
 }
 
 .centerof img{
@@ -267,8 +269,18 @@ header {
     display: block;
     width: 100%;
     /* margin: 0 auto; */
-    margin-top: 7%;
-    /* margin-bottom: 3%; */
+    margin-top: 9%;
+    margin-bottom: 10%;
+
+}
+.centerof h2{
+    text-align:center;
+    display: block;
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 30%;
+    margin-bottom: 10%;
+
 }
 
 
