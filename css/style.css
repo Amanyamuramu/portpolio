@@ -189,6 +189,12 @@ header {
     font-size: 18px;
 
 }
+.list1 h6{
+    margin: 0;
+    opacity: 0.8;
+    font-size: 14px;
+
+}
 .list1 p{
     margin: 0;
     font-size: 14px;
