@@ -148,7 +148,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     max-width: none;
-    margin: 0.2px auto;
+    margin: 1.2px auto;
 }
 .list1 article{
     flex: 1 1 400px;
