@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
-    
 <head>
-<meta charset="UTF-8">
-<title>PORTFOLIO</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- adapt for smaho -->
-<link rel="stylesheet" href="css/style.css">
-<!-- マウスにリアクティブなjsの作成 -->
-<script src="libraries/p5.min.js"></script>
-<script src="libraries/p5.dom.min.js"></script>
-<script src="js/line_dist_color.js"></script>
+    <meta charset="UTF-8">
+    <title>PORTFOLIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="js/line_dist_color.js"></script>
 </head>
 
-
-<header class="head.fixed">
+<header class="head fixed">
     <div class="container">
         <a href="index.html" class="headA">PORTFOLIO</a>
         <nav class="headB">
@@ -27,15 +24,19 @@
 
 <body>
     <div class="centerof">
-        <h2><br>振動子によって撫でられ感を再現するためのカチューシャ型デバイス</h2><br>
-        <img src="img/IMG_1408_Moment.jpg">
-        <!-- <img src="img/active.png" width="600" height="300"> -->
-
-        <p>VR空間で撫でられる体験をより臨場感をもって体験するために、振動子をカチューシャ型のデバイスに組み込んだ</p>
-        <img src="img/shindoush.jpg">
-
-
-        <p>デバイスの形状はカチューシャ型を採用し、5つの振動子（mini vibration moter 2.0mm）を等間隔に配置した。映像内で撫でられている位置と対応した振動子が強度および振動パターンを変化させることで撫でられる体験を与える</p>
+        <h2>振動子によって撫でられ感を再現するためのカチューシャ型デバイス</h2>
+        <div class="content">
+            <div class="image-container">
+                <img src="img/IMG_1408_Moment.jpg" alt="Main Image">
+            </div>
+            <div class="description">
+                <p>VR空間で撫でられる体験をより臨場感をもって体験するために、振動子をカチューシャ型のデバイスに組み込んだ</p>
+                <div class="additional-image">
+                    <img src="img/shindoush.jpg" alt="Device Image">
+                </div>
+                <p>デバイスの形状はカチューシャ型を採用し、5つの振動子（mini vibration moter 2.0mm）を等間隔に配置した。映像内で撫でられている位置と対応した振動子が強度および振動パターンを変化させることで撫でられる体験を与える</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
