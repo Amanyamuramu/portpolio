@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>PORTFOLIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- adapt for smaho -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- マウスにリアクティブなjsの作成 -->
+<script src="libraries/p5.min.js"></script>
+<script src="libraries/p5.dom.min.js"></script>
+<script src="js/line_dist_color.js"></script>
+
+</head>
+<header class="head.fixed">
+    <div class="container">
+        <a href="index.html" class="headA">Amane Tai</a>
+        <nav class="headB">
+            <ul class="dropmenu">
+                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a><span class="separator"> / </span></a></li>
+                <li><a href="index.html">PROJECTS</a></li>
+                <!-- <li><a href="index.html">twitter</a></li> -->
+                <!-- <li><a href="https://github.com/Amanyamuramu">github</a></li> -->
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div class="centerof">
+        <h2>AmplifiedTeacup：HMDと電動車椅子を利用したVRティーカップ体験における軌道の設計方針</h2>
+        <div class="conX">
+            <h3>OverView</h3>
+            <p>いつでもどこでもVRHMDと電動車椅子さえあれば、遊園地アトラクションのティーカップ体験ができるVRライドシステムを構築</p>
+
+            <h3>Image</h3>
+            <p><img src="img/amplifiedTeacup_fig/topImage.png" alt=""></p>
+            <p><img src="img/amplifiedTeacup_fig/teacup_system.png" alt=""></p>
+
+            <h3>Movie</h3>
+            <p></p>
+            <iframe width="520" height="320" src="https://www.youtube.com/embed/08SyJsuHl9w" title="SIGGRAPH Asia2024 XR demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <h3>Concept</h3>
+            <p>近年，電動車椅子をモーションプラットフォーム（MP）として利用し，Head Mounted Display（HMD）に提示するVirtual Reality（VR）映像を組み合わせたVRライドを構築することで，搭乗者に臨場感のある体験を擬似的に提供する試みが様々に行われてきた．一方で，移動する物理的空間の大きさによる制約や安全面の配慮から，VRにおける仮想空間の移動量や速度を物理空間にそのまま対応づけることは困難である．そうした場合に，より臨場感のあるVR体験を設計するためには，物理空間およびMPの速度や安全の制約を考慮してVRライドの軌道を適切に設計する必要がある．本研究では，提供したいVR体験として遊園地のアトラクションの定番の一つであるティーカップの乗車体験を取り上げ，HMDと電動車椅子を組み合わせたVRライドを構築するにあたってその軌道に関する調査を行った．ティーカップアトラクションのVR映像に対して，VR映像内で発生する並進速度と回転速度をそれぞれ1倍，0.5倍，0倍した組み合わせである9種の電動車椅子の軌道を比較評価させた．その結果，ティーカップのVR映像内で発生する角速度を与えた電動車椅子の軌道は、並進速度を低減して提示した場合においても搭乗者の一致度の評価を大きく損ねない可能性が示唆された．</p>
+            
+            <h3>Future Work</h3>
+            <p>本研究の今後の課題として，ティーカップ体験における小円盤の運動も再現した軌跡と軌道の関係を調査し，小円盤の回転量を操作するユーザインタフェースを追加しつつ，軌跡および軌道にヨー軸回転を連続的に印加することが，リダイレクションの効果や知覚の変化にどのような影響をもたらすのかを明らかにしていきたい．</p>
+
+            <h3>Publication</h3>
+            <ul>
+                <li>・AmplifiedTeacup：HMDと電動車椅子を利用したVRティーカップ体験における軌道の設計方針. 田井普, 中西泰人. （2024年12月末発行）第29巻第4号. 日本バーチャルリアリティ学会．(採録決定)</li>
+                <li>・Amane Tai, Yasuto Nakanishi. (2023). AmplifiedTeacup: Trajectory Design in the VR Teacup Experience using an HMD and an Electric Wheelchair. CREST「共生インタラクション」第12回領域会議.</li>
+            </ul>
+
+            <h3>Tools</h3>
+            <ul>
+                <li>Unity：VR映像の描画
+                <li>ROS2（python）：電動車椅子の動作
+                <li>D435i：ヴィジュアルオドメトリの取得
+            </ul>
+            
+            <!-- <h3>Credit</h3>
+            <ul>
+                <li>
+                    田井 普
+                </li>
+            </ul>
+             -->
+            <h3>Production Time</h3>
+            <ul>
+                <li>制作日時：2023年11月-2024年6月
+                <li>製作期間：8ヶ月
+                
+            </ul>
+            <h5>© 2024 - Amane Tai</h5>
+        </div>
+    </div>
+</body>
+</html>
