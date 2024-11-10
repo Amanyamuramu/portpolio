@@ -131,7 +131,8 @@ header {
     color : white;
     font-size: 1.1em;
 }
-@media (min-width: 768px){
+
+@media (min-width: 380px){
     header .container{
         display: flex;
         align-items: center;
@@ -289,8 +290,12 @@ header {
 
 
 .separator {
-    color: black; /* フォントカラーを黒にする */
-    font-size: 25px; /* フォントサイズを指定 (例: 16px) */
+    display: block;
+    padding: 15px;
+    /* color: inherit; */
+    color : black;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 
